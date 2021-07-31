@@ -28,7 +28,7 @@ class Task3:
         self.state = "Complete"
 
 
-class TaskAdapter(Observable):
+class TaskAdapter:
     _initialized = False
 
     def __init__(self, task, **kwargs):
